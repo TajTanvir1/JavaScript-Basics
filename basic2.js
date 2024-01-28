@@ -33,15 +33,16 @@ var my_current_home_address = "Bandarban Sundorban"; // snake case
 var myCurrentHomeAddress = "Bandarban Sundorban"; // Camel Case
 var MyCurrentHomeAddress = "Bandarban Sundorban"; //  Pascal Case
 
-console.log(MyCurrentHomeAddress)
+// console.log(MyCurrentHomeAddress)
 
 
 
 age = 20;
-var money = '30500';
+var money = 30500;
 var yourname = true;
 
-console.log(age)
+console.log(money)
+console.log(typeof money)
 
 
 

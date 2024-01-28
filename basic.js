@@ -12,3 +12,5 @@ console.log(typeof age)
 console.log(typeof money)
 console.log(yourname)
 console.log(typeof yourname)
+
+
