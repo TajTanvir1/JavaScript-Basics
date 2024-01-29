@@ -1,33 +1,31 @@
-/*
-BMI Calculator and Health Category
+/* 
+Grade Calculator
 
-      Create a JavaScript program that calculates the Body Mass Index (BMI) and assigns a health category based on the
-      BMI value. Use nested if-else statements to determine the health category.
+Create a simple JavaScript program that takes a student's score as input and returns their
+corresponding grade based on the following grading scale:
 
-      - Calculate BMI using the formula: BMI = weight (kg) / (height (m))^2
-      - BMI < 18.5, you are underweight. - BMI>= 18.5 and BMI <=24.9, you are normal. - BMI>=25 and BMI <= 29.9, you are
-      overweight. - Otherwise, you are obese.
-      */
+                  A: 90-100
+                  B: 80-89
+                  C: 70-79
+                  D: 60-69
+                  F: 0-59
+*/
 
+const score = 92;
 
-const weight = 70;
-const height = (1.8)**2;
-
-const bmi = weight / height
-
-console.log(bmi.toFixed(2))
-// console.log(height)
-
-if (bmi < 18.5) {
-   console.log('you are underweight.')
+console.log('score')
+if (score >= 90 && score <= 100) {
+   console.log('A')
 }
-else if (bmi >= 18.5 && bmi <= 24.9) {
-   console.log('you are normal.')
+else if(score >=80 && score <= 89){
+   console.log('B')
 }
-else if (bmi >= 25 && bmi <= 29.9) {
-   console.log('you are overweight')
+else if(score >=70 && score <= 79){
+   console.log('C')
 }
-else {
-   console.log('you are obese')
+else if(score >=60 && score <= 69){
+   console.log('D')
 }
-
+else if(score >=0 && score <= 59){
+   console.log('F')
+}
