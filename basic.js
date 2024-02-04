@@ -17,11 +17,15 @@
 //    console.log("Burger, Pizza, Pasta");
 //   }
 
-let ages = [20, 10, 50, 40, 60, 70]
+// let ages = [20, 10, 50, 40, 60, 70]
 
-ages.pop(3);
+// ages.pop(3);
 
-console.log(ages)
+// console.log(ages)
 
   
-  
+for (var i = 0; i < 5; i++) {
+   setTimeout(function () {
+    console.log(i);
+  }, 100);
+}   
